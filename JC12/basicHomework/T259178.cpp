@@ -5,10 +5,8 @@
 
 using namespace std;
 unsigned long long t;
-namespace programNamespace
-{
-    int main()
-    {
+namespace programNamespace {
+    int main() {
         scanf("%llu", &t);
         for (int i = 1; i <= t; i++) {
             stack<unsigned long long> a;
